@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.stopwatch-container {
+    text-align: center;
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.start { background-color: #4CAF50; color: white; }
+.stop { background-color: #f44336; color: white; }
+.reset { background-color: #008CBA; color: white; }
+.lap { background-color: #FFD700; color: black; }
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lap-list li {
+    margin: 5px;
+}
